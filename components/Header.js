@@ -13,8 +13,8 @@ const Header = () => (
     </Link>
     </div>
     <div className='rightSideLinks'>
-    <Link href="/about">
-      <a style={linkStyle}>About</a>
+    <Link href="/">
+      <a style={linkStyle}>Home</a>
     </Link>
     <Link href="/symptoms">
       <a style={linkStyle}>Symptoms</a>
@@ -22,8 +22,8 @@ const Header = () => (
     <Link href="/diet">
       <a style={linkStyle}>Diet</a>
     </Link>
-    <Link href="/more">
-      <a style={linkStyle}>More</a>
+    <Link href="/moreSources">
+      <a style={linkStyle}>More Sources</a>
     </Link>
     </div>
   </div>
